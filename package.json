@@ -1,0 +1,15 @@
+{
+  "name": "futures-journal",
+  "version": "1.0.0",
+  "description": "Дневник трейдера фьючерсами MOEX: сделки, статистика, кривая капитала, календарь P&L, журнал",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node --test",
+    "test:cloud": "node scripts/cloud-e2e.mjs",
+    "mock": "node scripts/mock-supabase.js"
+  },
+  "engines": { "node": ">=24" }
+}
